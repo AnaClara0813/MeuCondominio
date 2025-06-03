@@ -1,0 +1,140 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--default-font-family);
+}
+
+.main-container {
+  display: flex;
+  height: 97vh;
+  background-color: #15281f;
+}
+
+.form-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  background-color: transparent;
+  padding: 40px;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.user-icon {
+  background-color: #344e41;
+  color: #ffffff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.label {
+  width: 100%;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.forgot-password {
+  align-self: flex-end;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.login-button a,
+.login-button a:visited,
+.login-button a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #344e41;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.perfil-options {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.perfil-options input[type="radio"] {
+  accent-color: #ffffff;
+  margin-right: 8px;
+}
+
+.image-container {
+  width: 50%;
+  background: url('https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-05-19/DgcYNuuByS.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.image-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(3px);
+}
+
+.welcome-text {
+  position: relative;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: bold;
+  z-index: 1;
+  text-shadow: 1px 1px 2px #000000;
+}

@@ -1,0 +1,55 @@
+.configuracoes-container {
+  padding: 20px;
+}
+
+.configuracoes-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.configuracoes-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.card-config {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.card-config .icon {
+  font-size: 30px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.card-config .conteudo h3 {
+  margin: 0 0 5px;
+  font-size: 18px;
+}
+
+.card-config .conteudo p {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 10px;
+}
+
+.card-config .conteudo button {
+  background: #344e41;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.card-config .conteudo button:hover {
+  background: #2a3b34;
+}

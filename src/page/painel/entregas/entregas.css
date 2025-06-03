@@ -1,0 +1,84 @@
+.entregas-container {
+  padding: 20px;
+}
+
+.header-entregas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.icone-entrega {
+  font-size: 32px;
+}
+
+.fechar {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.lista-entregas {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bolao {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+.bolao::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-right-color: #fff;
+  position: absolute;
+  left: -20px;
+  top: 20px;
+}
+
+.bolao .data {
+  font-size: 12px;
+  color: #666;
+  width: 80px;
+  text-align: center;
+}
+
+.bolao .conteudo {
+  flex: 1;
+}
+
+.bolao .conteudo strong {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.bolao .conteudo p {
+  font-size: 12px;
+  margin: 4px 0 0;
+  color: #666;
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.btn-fechar {
+  margin-top: 20px;
+  background: #344e41;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}

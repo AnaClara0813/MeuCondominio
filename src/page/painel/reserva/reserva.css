@@ -1,0 +1,115 @@
+.reserva-container {
+  padding: 20px;
+}
+
+.areas-disponiveis h3, .suas-reservas h3 {
+  margin-bottom: 10px;
+}
+
+.cards-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card .icone {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.card button {
+  background: #344e41;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.suas-reservas table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.suas-reservas th, .suas-reservas td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.nova-reserva {
+  margin-top: 15px;
+  background: #344e41;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card-reservas {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin: 20px 0;
+}
+
+.card-reservas h2 {
+  margin-bottom: 15px;
+}
+
+.tabela-reservas {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+.tabela-reservas th,
+.tabela-reservas td {
+  text-align: left;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.tabela-reservas thead {
+  background-color: #344e41;
+  color: #f6f6f6;
+}
+
+.tabela-reservas tbody tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.tabela-reservas tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.tabela-reservas button.btn-reservar {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-nova-reserva {
+  background: #344e41;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
